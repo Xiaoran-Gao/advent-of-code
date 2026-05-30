@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 
-with open("./input.txt", "r") as f:
+with open("advent-of-code/2025/day9/input.txt", "r") as f:
     coords = [list(map(int, c.split(','))) for c in f.read().splitlines()]
 
 plt.figure(figsize=(15, 15))
